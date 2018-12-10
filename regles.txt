@@ -1,0 +1,44 @@
+        
+
+
+						╔═══════════════════════════════════════════════════════════════════════════════════════════════════╗
+						║		       	██████╗ ███████╗ ██████╗ ██╗     ███████╗███████╗                           ║
+						║		      	██╔══██╗██╔════╝██╔════╝ ██║     ██╔════╝██╔════╝    ██╗	            ║
+						║		      	██████╔╝█████╗  ██║  ███╗██║     █████╗  ███████╗    ╚═╝	            ║
+						║		      	██╔══██╗██╔══╝  ██║   ██║██║     ██╔══╝  ╚════██║    ██╗                    ║
+						║		      	██║  ██║███████╗╚██████╔╝███████╗███████╗███████║    ╚═╝                    ║
+						║		      	╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝                           ║  
+						║                                                                                                   ║
+						║   							      				            ║
+						║				       								    ║
+						║                                                                                                   ║
+						║    Au début de l’exécution du programme, l’utilisateur fera le choix de son type de trajet (vélo, ║
+       					 	║   piéton...). La matrice fixe contiendra les différents types de terrains. Dans chaque case nous  ║
+	   				 	║       aurons le coût des terrains.								    ║
+        					║ 												    ║
+						║                      Estimation de la distance à parcourir : heuristique                          ║
+						║   Le calcul de la distance restante à parcourir se fait grâce à la distance de Manhattan, en      ║
+						║   prenant en compte les obstacles à éviter.							    ║
+       					        ║ 												    ║
+       					        ║                                            Affichage de la carte                                  ║
+						║  Affichage d’une carte sur le terminal avec la position de l’utilisateur et des types de terrains ║
+       						║ 												    ║
+						║		          Choix du chemin qui correspond à la demande				    ║
+						║		Prise en compte du type de terrain afin de trouver la difficulté du chemin          ║
+						║			Notre application Mappy&Go a donc pour objectif de :			    ║
+       						║   • Cartographier une ville (ou d’un arrondissement) et les parcours possibles (en fonction       ║
+        					║    du niveau de difficulté)									    ║
+        					║   • Prendre en compte les différentes textures du sol que l’on peut trouver dans cette ville      ║
+        					║                               (Rugueux, boue, sableux, bitumé, etc...)                            ║
+        					║   • Calculer les différentes altitudes que l’on peut y trouver                                    ║
+        					║   • Définir chaque type d’utilisateur :             						    ║
+        					║           o Salarié : qui désire rentrer le plus vite chez lui (court et facile)                  ║
+        					║           o Sportif irrégulier : qui désire faire un long parcours mais facile (long et facile)   ║
+        					║                                              							    ║
+        					║           o Cycliste : qui veut parcourir un chemin court et difficile                            ║
+        					║           o Sportif de haut niveau : qui veut parcourir un chemin long et difficile               ║
+        					║  												    ║
+						║ 												    ║
+						║                                                                                                   ║
+						╚═══════════════════════════════════════════════════════════════════════════════════════════════════╝
+
